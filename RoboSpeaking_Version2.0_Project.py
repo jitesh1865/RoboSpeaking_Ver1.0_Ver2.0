@@ -1,6 +1,5 @@
-import multiprocessing
 from gtts import gTTS
-from playsound import playsound
+from playsound import playsound  #  This module is imported so that we can , play the converted audio
 import os
 
 '''
@@ -21,18 +20,12 @@ while 1:
                     var = gTTS(text = exitText,lang = 'en')
                     var.save('engw.mp3') 
                     playsound('engw.mp3')
+                    os.remove('engw.mp3')
                     break
         var.save('eng.mp3') 
         playsound('eng.mp3')
         os.remove('eng.mp3')
         
-
-
-
-
-
-
-
 
 
 

@@ -1,11 +1,10 @@
 
-#import gtts
+
 from playsound import playsound
 # This module is imported so that we can 
 # play the converted audio
 
 
-from gtts import gTTS
 
 import os
 import pyttsx3
@@ -14,7 +13,7 @@ import pyttsx3
 
 
 # //---------------Code is Good and in a Working condition-----Code Start A1-------------------------------
-import pyttsx3
+
 
 while 1:
         print("-------------Welcome to Robo speaker 1.0 Version---------------")
