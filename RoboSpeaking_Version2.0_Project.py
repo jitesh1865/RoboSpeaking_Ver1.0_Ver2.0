@@ -23,8 +23,8 @@ while 1:
                     os.remove('engw.mp3')
                     break
         var.save('eng.mp3') 
-        playsound('eng.mp3')
-        os.remove('eng.mp3')
+        playsound('eng.mp3')  # Everytime it generate a new file with new text enter by user
+        os.remove('eng.mp3')  #  Remove it the file so that next time new file with name eng.mp3 will be generated
         
 
 
